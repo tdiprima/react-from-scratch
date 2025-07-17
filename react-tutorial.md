@@ -18,7 +18,7 @@ Let's get started!
 - **Node.js and npm**: React apps are built and run using Node.js (a JavaScript runtime) and npm (Node Package Manager). Download and install the latest LTS version from [nodejs.org](https://nodejs.org). This includes npm automatically.
   - After installation, open your terminal/command prompt and verify:
 
-    ```
+    ```sh
     node -v  // Should show a version like v20.x.x
     npm -v   // Should show a version like 10.x.x
     ```
@@ -33,7 +33,7 @@ The easiest way to start with React is using **Create React App** (CRA), a tool 
 1. Open your terminal/command prompt.
 2. Install Create React App globally (if not already installed):
 
-   ```
+   ```sh
    npm install -g create-react-app
    ```
 
@@ -41,7 +41,7 @@ The easiest way to start with React is using **Create React App** (CRA), a tool 
 
 3. Create a new React app:
 
-   ```
+   ```sh
    npx create-react-app my-first-react-app
    ```
 
@@ -50,7 +50,7 @@ The easiest way to start with React is using **Create React App** (CRA), a tool 
 
 4. Navigate into the project folder:
 
-   ```
+   ```sh
    cd my-first-react-app
    ```
 
@@ -73,7 +73,7 @@ my-first-react-app/
 ### **Step 3: Running Your React App**
 1. In the terminal (still inside your project folder), start the development server:
 
-   ```
+   ```sh
    npm start
    ```
 
@@ -86,7 +86,7 @@ my-first-react-app/
 
 To run it in production mode (optimized build):
 
-```
+```sh
 npm run build
 ```
 
