@@ -3,6 +3,7 @@ Absolutely, that's a fantastic analogy! Learning ReactJS (or any programming fra
 I'm going to teach this like a beginner's lesson for a 10th-grader. I'll assume you know some basic JavaScript (like variables, functions, and arrays—if not, let me know, and I can cover that first). We'll focus on the essential syntax, common functions, and patterns in React. I'll explain concepts simply, with analogies, code examples, and why they're useful. Think of React as a way to build interactive web pages, like Lego blocks that update themselves.
 
 To follow along, you'll need:
+
 - A computer with Node.js installed (free from nodejs.org).
 - Run this in your terminal/command prompt: `npx create-react-app my-first-app` (this sets up a React project).
 - Then `cd my-first-app` and `npm start` to run it. Edit files in the `src` folder using a code editor like VS Code (free).
