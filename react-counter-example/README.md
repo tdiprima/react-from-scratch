@@ -6,7 +6,7 @@ This project demonstrates a simple React application with two key components: `A
 
 The `App.js` file serves as the root component of the application:
 
-```javascript
+```js
 function App() {
   return (
     <div>
@@ -18,6 +18,7 @@ function App() {
 ```
 
 **Key responsibilities:**
+
 - **Layout Structure**: Provides the main application layout with a title
 - **Component Import**: Imports the `Counter` component from `./Counter`
 - **Props Passing**: Passes the `title` prop to the Counter component
@@ -27,7 +28,7 @@ function App() {
 
 The `Counter.js` file contains the interactive counter functionality:
 
-```javascript
+```js
 function Counter(props) {
   const [count, setCount] = useState(0);
 
@@ -43,6 +44,7 @@ function Counter(props) {
 ```
 
 **Key features:**
+
 - **State Management**: Uses `useState(0)` to manage the counter value
 - **Props Reception**: Receives and displays the `title` prop from App.js
 - **Event Handling**: Handles button clicks to increment/decrement the counter
@@ -51,6 +53,7 @@ function Counter(props) {
 ## How They Work Together
 
 ### 1. Component Hierarchy
+
 ```
 App (Parent)
 └── Counter (Child)
@@ -80,3 +83,5 @@ App (Parent)
 - **Conditional Rendering**: Display of dynamic count value
 
 This simple example showcases the fundamental React pattern of component composition, props, and state management working together to create an interactive user interface.
+
+<br>
