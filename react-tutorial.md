@@ -1,6 +1,7 @@
 Below is a comprehensive beginner-friendly tutorial on React. Before we dive in, I need to clarify something important: **React is not a programming language**. It's a JavaScript *library* (developed by Facebook) for building user interfaces (UIs), particularly single-page applications (SPAs). It allows you to create reusable UI components and manage the state of your app efficiently. React is written in JavaScript, so you'll need basic knowledge of JavaScript, HTML, and CSS to follow along. If you're new to those, I recommend brushing up on them first (e.g., via freeCodeCamp or MDN Web Docs).
 
 This tutorial will cover:
+
 - Setting up your environment.
 - Creating and running a simple React app.
 - Key concepts and how React works under the hood.
