@@ -26,7 +26,7 @@ const TodoApp = () => {
     ));
   };
 
-  const handleKeyPress = (e) => {
+  const handleKeyDown = (e) => {
     if (e.key === 'Enter') {
       addTodo();
     }
@@ -41,7 +41,7 @@ const TodoApp = () => {
           type="text"
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
-          onKeyPress={handleKeyPress}
+          onKeyDown={handleKeyDown}
           placeholder="Add a new todo..."
           className="todo-input"
         />
